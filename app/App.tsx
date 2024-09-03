@@ -32,7 +32,6 @@ const getIcon = (modelo: string, name: string) => {
       Banco: <RiBankLine className='scale-150 fill-white' />,
       Configuração: <IoSettingsSharp className='scale-150 fill-white' />,
       Camera: <IoSettingsSharp className='scale-150 fill-white' />,
-      DinoGame: <IoSettingsSharp className='scale-150 fill-white' />,
     },
     Iphone: {
       Calculadora: <FaEquals className='scale-125 fill-white' />,

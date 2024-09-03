@@ -16,7 +16,6 @@ import Banco from './apps/Bank/Bank';
 import Sobre from './apps/xiaomi/configuracao/Sobre';
 import Config from './apps/xiaomi/configuracao/Config';
 import ChangeBackground from './apps/xiaomi/configuracao/ChangeBackground';
-import DinoGame from './Games/DinoGame';
 
 
 const appComponents = {
@@ -25,8 +24,7 @@ const appComponents = {
       <App name="Calculadora" />
       <App name="Banco" />
       <App name="Configuração" />
-      <App name="Camera" />
-      <App name="DinoGame" />
+      {/* <App name="Camera" /> */}
     </div>
   ),
   
@@ -44,7 +42,6 @@ const appComponents = {
   "BancoXiaomi": <Banco />,
   "Sobre": <Sobre />,
   "Config": <Config />,
-  "DinoGameXiaomi": <DinoGame />,
   "ChangeBackground": <div className={`bg-white dark:bg-black`}> <ChangeBackground /> </div>
   
 };
