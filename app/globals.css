@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    background: none;
+    background-color: transparent;
+}
+
+* {
+    user-select: none;
+}
+
+body {
+    background-color: transparent;
+}
+
+.dark {
+    color-scheme: none;
+    background: none;
+    background-color: transparent;
+}
+
+.light {
+    color-scheme: none;
+    background: none;
+    background-color: transparent;
+}
+
+.scroll-bar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.scroll-bar::-webkit-scrollbar-track {
+    background-color: #161616;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+    background-color: #7c94ff;
+    border-radius: 25px;
+}
+.scroll-bar::-webkit-scrollbar-thumb:hover {
+    background-color: #2c51f5;
+}
