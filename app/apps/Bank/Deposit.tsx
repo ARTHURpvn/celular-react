@@ -1,8 +1,11 @@
+import { useCellphoneContext } from '@/app/context/AppProvider';
+
 const Deposit = () => {
+    const { navegation } = useCellphoneContext();
 
     return (
         <div className="pt-10 px-6">
-            <p className="text-white"> Cancelar </p>
+            <p className="text-white" onClick={}> Cancelar </p>
 
             <div>
                 <form method="post" className="flex flex-col mt-10">
@@ -13,7 +16,7 @@ const Deposit = () => {
                         required
                     />
 
-                    <input type="button" value={"Confirmar"} className="self-end mt-6 p-2 rounded-xl bg-blue-600" />
+                    <input type="button" value={"Confirmar"} className="self-end mt-6 p-2 rounded-md bg-blue-600" />
                 </form>
             </div>
         </div>

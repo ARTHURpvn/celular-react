@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
 
 import { AppProvider } from "./context/AppProvider";
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={inter.className + ' bg-transparent'}>
         <AppProvider>
           {children}
+          <Analytics />
         </AppProvider>
       </body>
     </html>

@@ -6,7 +6,7 @@ import { useCellphoneContext } from "@/app/context/AppProvider";
 
 const Config = () => {
     const [selectedModel, setSelectedModel] = useState('');
-    const [selectedSize, setSelectedSize] = useState<number>(2); // Define o valor inicial como número
+    const [selectedSize, setSelectedSize] = useState<number>(2);
     const { theme, modelo, isAppClosing, dispatch } = useCellphoneContext();
 
     const handleNavegation = (nav: string) => dispatch({ type: 'setNavegation', payload: nav });
