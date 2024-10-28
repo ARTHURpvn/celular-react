@@ -5,7 +5,7 @@ const Deposit = () => {
 
     return (
         <div className="pt-10 px-6">
-            <p className="text-white" onClick={}> Cancelar </p>
+            <p className="text-white"> Cancelar </p>
 
             <div>
                 <form method="post" className="flex flex-col mt-10">
