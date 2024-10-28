@@ -1,5 +1,5 @@
 # lpn-cellphone
-Um script de celular feito em React.js, Next.js, TypeScript e TailWind CSS.
+Um script de celular feito em React.js, Next.js, TypeScript e TailWind CSS. <br>
 [![CodeTime Badge](https://img.shields.io/endpoint?style=flat&color=222&url=https%3A%2F%2Fapi.codetime.dev%2Fshield%3Fid%3D26621%26project%3Dcelular-react%26in=345600000)](https://codetime.dev)
 
 ---
