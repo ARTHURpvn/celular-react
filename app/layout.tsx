@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 import { AppProvider } from "./context/AppProvider";
-
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,11 +17,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
-
   return (
     <html lang="pt-br">
-      <body className={inter.className + ' bg-transparent'}>
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1750077550709322"
+          crossOrigin="anonymous"
+        ></script>
+      </head>
+      <body className={inter.className + " bg-transparent"}>
         <AppProvider>
           {children}
           <Analytics />

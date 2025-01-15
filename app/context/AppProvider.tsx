@@ -1,5 +1,5 @@
 'use client'
-import React, { createContext, use, useContext, useEffect, useReducer } from 'react'
+import React, { createContext, useContext, useEffect, useReducer } from 'react'
 
 interface CellphoneState {
     backgroundUrl: string
